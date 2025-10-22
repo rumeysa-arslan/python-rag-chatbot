@@ -4,3 +4,4 @@ pypdf
 streamlit
 langchain-google-genai
 python-dotenv
+google-genai
