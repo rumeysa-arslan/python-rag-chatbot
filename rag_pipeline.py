@@ -1,5 +1,9 @@
 import os
 import chromadb
+import os
+import google as genai
+
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 from dotenv import load_dotenv
 from tqdm import tqdm
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
