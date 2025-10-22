@@ -1,3 +1,9 @@
+
+if "GEMINI_API_KEY" not in st.secrets:
+    st.error("HATA: Uygulamayı çalıştırmak için GEMINI_API_KEY gizli anahtarı bulunamadı. Lütfen Streamlit Cloud ayarlarına ekleyin.")
+    st.stop()
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+
 import streamlit as st
 import os
 import chromadb
