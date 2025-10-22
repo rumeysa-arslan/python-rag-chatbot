@@ -4,13 +4,11 @@
 Bu proje, RAG (Retrieval Augmented Generation) mimarisini kullanarak Python programlama dili hakkında doğru ve bağlamsal yanıtlar verebilen bir chatbot geliştirmeyi amaçlamaktadır. Proje, yeni başlayanların sıkça sorduğu soruları, güvenilir dokümanlardan bilgi çekerek hızlıca yanıtlamayı hedefler.
 
 ## [span_1](start_span)💾 Veri Seti Hakkında Bilgi[span_1](end_span)
-(Bu bölümü Adım 2'de dolduracağız)
 * *Kaynak:* [Python Dokümantasyonu / Seçtiğiniz Kaynak]
 * *Metodoloji:* [Nasıl toplandığı/hazırlandığı]
 * *İçerik Özeti:* [Neler içerdiği]
 
 ## [span_2](start_span)🛠 Kullanılan Yöntemler ve Teknoloji[span_2](end_span)
-(Bu bölümü Adım 3'te dolduracağız)
 * *[span_3](start_span)RAG Framework:* LangChain / Haystack[span_3](end_span)
 * *[span_4](start_span)Generation Model:* Gemini API[span_4](end_span)
 * *[span_5](start_span)Vektör Veritabanı:* ChromaDB[span_5](end_span)
