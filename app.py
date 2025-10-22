@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import chromadb
 from google import genai
-from langchain_google_genai import GoogleGenerativeAIEmbeddings as GGClientEmbedings
+from google.genai.models import GoogleGenerativeAIEmbeddings as GGClientEmbedings
 from chromadb.api.models.Collection import Collection
 
 
